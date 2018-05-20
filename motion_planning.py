@@ -198,7 +198,7 @@ class MotionPlanning(Drone):
             if cell == 0:
                 grid_goal = (north_rand, east_rand)
                 break
-        grid_goal = (800, 800)
+#        grid_goal = (800, 800)
 
         # Run A* to find a path from start to goal
         # TODO: add diagonal motions with a cost of sqrt(2) to your A* implementation
